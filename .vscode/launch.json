@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run SmartGrid",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/smartgrid",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "console": "integratedTerminal",
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kaucha/Desktop/c++/SGS",
+      "program": "/Users/kaucha/Desktop/c++/SGS/build/Debug/outDebug"
+    }
+  ]
+}
